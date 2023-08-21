@@ -61,6 +61,7 @@ public class LichSuKham_TuVan_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lichsukham_tuvan);
+        getSupportActionBar().hide();
 
         edtEmailDN = findViewById(R.id.edtEmailDN);
 

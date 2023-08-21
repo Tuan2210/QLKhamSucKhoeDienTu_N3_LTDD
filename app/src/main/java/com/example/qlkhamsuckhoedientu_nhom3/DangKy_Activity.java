@@ -38,6 +38,7 @@ public class DangKy_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dangky);
+        getSupportActionBar().hide();
 
         edtHoTenDK = findViewById(R.id.edtHoTenDK);
         edtSdtDK = findViewById(R.id.edtSdtDK);

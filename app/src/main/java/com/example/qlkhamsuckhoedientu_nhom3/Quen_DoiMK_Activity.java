@@ -36,6 +36,7 @@ public class Quen_DoiMK_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quen_doimk);
+        getSupportActionBar().hide();
 
         edtEmailMKMoi = findViewById(R.id.edtEmailMKMoi);
         edtMKMoi = findViewById(R.id.edtMKMoi);

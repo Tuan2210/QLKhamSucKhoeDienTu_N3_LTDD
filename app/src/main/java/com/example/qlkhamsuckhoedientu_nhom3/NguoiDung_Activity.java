@@ -33,6 +33,7 @@ public class NguoiDung_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nguoidung);
+        getSupportActionBar().hide();
 
         tvTenNguoiDung = findViewById(R.id.tvTenNguoiDung);
         btnDangXuat = findViewById(R.id.btnDangXuat);
